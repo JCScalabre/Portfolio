@@ -21,8 +21,6 @@ header.masthead {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*background-height: 200px;*/
-	/*background-size: 1424px;*/
 }
 
 section {
@@ -40,6 +38,7 @@ section#portfolio {
 
 section#contact {
 	padding-top: 33px;
+	padding-bottom: 25px;
 }
 
 * {
@@ -47,9 +46,19 @@ section#contact {
 }
 
 .myimages {
-	/*height: 253px;*/
+	/*height: 230px;*/
 }
 
 .projecttitles {
 	margin-top: 6px;
+}
+
+a.btn-social {
+	margin-top: 0px;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+	background: rgba(63, 188, 24, 0.72);
 }
