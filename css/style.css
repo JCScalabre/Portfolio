@@ -5,7 +5,7 @@
 
 @media (min-width: 768px) {
 	header.masthead {
-	    padding-top: 154px;
+	    padding-top: 174px;
 	    padding-bottom: 100px;
 	}
 }
@@ -15,6 +15,41 @@ hr.star-light:after, hr.star-primary:after {
 }
 
 header.masthead {
-	background: url("../img/stars.jpg");
-	background-size: 1424px;
+	background: url("../img/mountains.jpg") no-repeat center center fixed;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-height: 200px;*/
+	/*background-size: 1424px;*/
+}
+
+section {
+	padding: 70px 0;
+}
+
+section.success {
+	background: #404040;
+}
+
+section#portfolio {
+	padding-top: 29px;
+	padding-bottom: 0px;
+}
+
+section#contact {
+	padding-top: 33px;
+}
+
+* {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.myimages {
+	/*height: 253px;*/
+}
+
+.projecttitles {
+	margin-top: 6px;
 }
