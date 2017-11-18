@@ -1,0 +1,20 @@
+#headshot {
+	border-radius: 50%;
+	height: 308px;
+}
+
+@media (min-width: 768px) {
+	header.masthead {
+	    padding-top: 154px;
+	    padding-bottom: 100px;
+	}
+}
+
+hr.star-light:after, hr.star-primary:after {
+	content: none;
+}
+
+header.masthead {
+	background: url("../img/stars.jpg");
+	background-size: 1424px;
+}
